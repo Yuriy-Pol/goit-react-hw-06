@@ -33,28 +33,3 @@ export default function Contact({ name, phone, id }) {
     </>
   );
 }
-
-// export default function Contact({ name, phone, id, onDelete }) {
-//   return (
-//     <>
-//       <div className={css.wrapper}>
-//         <div className={css.name}>
-//           <IoPersonSharp />
-//           <p>{name}</p>
-//         </div>
-//         <div className={css.phone}>
-//           <FaPhoneAlt />
-//           <p>{phone}</p>
-//         </div>
-//       </div>
-//       <button
-//         className={css.button}
-//         type="button"
-//         id={id}
-//         onClick={() => onDelete(id)}
-//       >
-//         Delete
-//       </button>
-//     </>
-//   );
-// }
